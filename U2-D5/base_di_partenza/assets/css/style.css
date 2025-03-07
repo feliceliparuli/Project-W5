@@ -81,9 +81,13 @@ header button {
   list-style: decimal-leading-zero;
   margin-top: 10px;
 }
+.trending li::marker {
+  color: lightgrey;
+  font-size: 2em;
+}
 .trending li {
   padding: 10px;
-  width: 30%;
+  width: 25%;
 }
 .trending img,
 .articles li header img {
