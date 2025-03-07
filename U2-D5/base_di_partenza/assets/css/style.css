@@ -196,3 +196,30 @@ aside ul li {
   color: grey;
   text-decoration: none;
 }
+@media screen and (max-width: 1200px) {
+  .top {
+    padding: 2% 5%;
+  }
+  header section div {
+    padding-left: 5%;
+    background-color: #ffc017;
+  }
+  .trending li::marker {
+    color: lightgrey;
+    font-size: 1.2em;
+  }
+  .all-articles {
+    padding: 2%5%;
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    width: 100%;
+    order: 2;
+    display: flex;
+  }
+  .articles {
+    width: 100%;
+    order: 1;
+  }
+}
